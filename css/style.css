@@ -471,13 +471,13 @@ input{
 @media (max-width: 768px){
     .header{
         width: 700px;
-        
-        padding: 0 200px 30px;
+        margin: 0;
+        padding: 20px 130px 0 ;
         
     }
     .nav{
         margin-top: 200px;
-        width: 600px;
+        width: 500px;
         justify-content: space-between;
         flex-wrap: wrap;
         
@@ -485,12 +485,12 @@ input{
     }
     .block-nfts{
         max-width: 600px;
-        padding: 50px 30px;
+        padding: 50px 20px;
         
     }
     .nfts-left{
         max-width: 600px;
-        padding: 50px 200px;
+        padding: 50px 100px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -518,7 +518,7 @@ input{
     .contribute{
         width: 600px;
         
-        padding: 30px 250px;
+        padding: 30px 179px;
         
         
     }
@@ -545,7 +545,7 @@ input{
         margin-left: 50px;
     }
     .main-dreams{
-        min-width: 1100px;
+        min-width: 960px;
         height: 2150px;
         background-image: url(../img/Rectangle\ 249.png);
         background-repeat: no-repeat;
@@ -556,7 +556,7 @@ input{
         
         width: 600px;
         text-align: center;
-        padding: 0 200px ;
+        padding: 0 179px ;
     }
     .dr-cards{
         max-width: 600px;
@@ -569,7 +569,7 @@ input{
     .main-louvre{
        
         width: 600px;
-        padding: 50px 250px 0;
+        padding: 50px 179px 0;
     }
     .row{
         flex-direction: column;
@@ -583,14 +583,14 @@ input{
     }
     .main-benefits{
         width: 600px;
-        padding: 50px 250px 0;
+        padding: 50px 179px 0;
     }
 
 
     .main-rating{
         
         width: 600px;
-        padding: 50px 250px 0;
+        padding: 50px 179px 0;
         text-align: center;
     }
     .cards-projects{
@@ -636,19 +636,19 @@ input{
         
     }
     .block-partners{
-        width: 1000px;
-        padding: 50px 100px;
+        min-width: 960px;
+        padding: 50px 0;
 
     }
     .main-partners{
         justify-content: center;
         align-items: center;
         width: 600px;
-        padding: 50px 250px;
+        padding: 50px 179px;
         
     }
     footer{
-        width: 1100px;
+        width: 960px;
         margin-top: 90px;
         height: 900px;
     }
@@ -666,13 +666,20 @@ input{
         margin-top: 50px;
         width: 250px;
     }
+    .footer-nav{
+        display: flex;
+        flex-direction: column-reverse;
+    }
     .nav-footer{
         
-        width: 300px;
+        width: 516px;
         justify-content: space-between;
         flex-wrap: wrap;
         
         
+    }
+    .footer-logo{
+        margin-top: 150px;
     }
 }
 
